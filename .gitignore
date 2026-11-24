@@ -1,0 +1,6 @@
+/target
+# generated assembly and executables
+*.s
+*.exe
+/target/
+.agent-cache/

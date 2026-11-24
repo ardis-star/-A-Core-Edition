@@ -1,0 +1,16 @@
+[package]
+name = "minus-a-backend"
+version = "0.1.0"
+edition = "2021"
+description = "-A Core Edition assembly backend: assembles and links generated x86-64 assembly into executables"
+license = "MIT"
+
+[[bin]]
+name = "minus-a-backend"
+path = "src/main.rs"
+
+[lib]
+name = "minus_a_backend"
+path = "src/lib.rs"
+
+[dependencies]
